@@ -13,5 +13,11 @@ public class Main {
         double base = sc.nextDouble();
         System.out.println("Declare a altura do retângulo: ");
         double altura = sc.nextDouble();
+
+        double area = base * altura;
+        double perimetro = 2 * (base + altura);
+
+        System.out.println("Area do retângulo: " + area);
+        System.out.println("Perimetro do retângulo: " + perimetro);
     }
 }
