@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Declare um inteiro menos que 32 e maior que 0: ");
         int inteiro = sc.nextInt();
 
-        if(inteiro >= 61 || inteiro < 0) {
+        if(inteiro >= 32 || inteiro < 0) {
             throw new NumeroInvalidoException(inteiro);
         }
 
